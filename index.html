@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+<div class="container">
+   <header class="header">
+   	<div class="row contenedor">
+   	  <p class="logo">Jose David</p>
+	   <nav>
+		<ul>
+			<li><a href="#" >Inicio |</a></li>
+			<li><a href="#" >Acerca de Mí |</a></li>			  
+			<li><a href="#">Servicios |</a></li>
+			<li><a href="#">Portafolio |</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	   </nav>
+   	</div>
+	<div id="contenedor-titulo-flex">
+		<div class="contenedor-titulo">
+				<h1>Jose David</h1>
+				<h3>Programador De Software</h3>
+		</div>
+	</div>
+  </header>
+  <section id="acercaMi">
+  	<h2>Acerca de mi</h2>
+  	<br>
+  	<div class="row">
+  	   <div class="col-md-4">
+  		  <h3>Perfil</h3>
+  		  <p><b>Soy Tecnico en programación de software, actualmente estoy estudiando el tecnologo en Analiis y desarrollo de la información; conocimientos en PHP, HTML, CSS y JavaScript; en frameworks LARAVEL, Bootstrap y Angular, manejo de sistemas operativos Linux, Windows y AS400.</b></p>
+  	   </div>
+  	   <div class="col-md-4">
+  		  <h3>Cursos</h3>
+  		  <ul>
+            <li type="circle"><b>Master en webs Full stack: Angular, Node, Laravel, Symfony</b></li>
+  		    <li type="circle"><b>Marketing digital para e-commerce</b></li>
+  		    <li type="circle"><b>Bases de datos generalidades y sistemas de gestión</b></li>
+  		    <li type="circle"><b>Desarrollo web con PHP</b></li>
+  		   </ul>
+  	   </div>
+  	   <div class="col-md-4">
+  		  <h3>Experiencia</h3>
+  		  <ol>
+            <li value="1">Tecnico en soporte y pruebas Estandar</li>
+            <li>Operador de servicios Junior</li>
+  		  </ol>
+  	  </div>
+    </div>
+  </section>
+  <section id="servicios">
+  	 <h2>Servicios</h2>
+  	 <br>
+  	 <div class="row">
+  	 	<div class="col-md-4">
+  	 		<img src="imagenes/desarrolloweb.jpg" class="img-servicio">
+  	 		<h3>Desarrollo Web</h3>
+  	 		<p>Brindamos el servicio de diseño web para su proyecto, utilizando las nuevas tecnologías y realizando páginas responsive y dinamicas.</p>
+  	 	</div>
+  	 	<div class="col-md-4">
+  	 		<img src="imagenes/diseñoweb.jpg" class="img-servicio">
+  	 		<h3>Diseño Web</h3>
+  	 		<p>Brindamos el servicio de desarrollo web para su proyecto, utilizando las nuevas tecnologías y realizando páginas responsive y dinamicas.</p>
+  	 	</div>
+  	 	<div class="col-md-4">
+  	 		<img src="imagenes/soporteweb.jpg" class="img-servicio">
+  	 		<h3>Soporte Web</h3>
+  	 		<p>Brindamos el servicio de desarrollo web para su proyecto, utilizando las nuevas tecnologías y realizando páginas responsive y dinamicas.</p>
+  	 	</div>
+  	 </div>
+  </section>
+  <section id="portafolio">
+  	<h2>Portafolio</h2>
+  	<br>
+  	<div class="row">
+  		<div class="col-md-4">
+  			<img src="imagenes/minerva.png" class="img-portafolio">
+  		</div>
+  		<div class="col-md-4">
+  			<img src="imagenes/miahpasteleria.png" class="img-portafolio">
+  		</div>
+  		<div class="col-md-4">
+  			<img src="imagenes/flisas.png" class="img-portafolio">
+  		</div>
+  	</div>
+  	<br>
+  	<div class="row">
+  		<div class="col-md-4">
+  			<img src="imagenes/restaurante.png" class="img-portafolio">
+  		</div>
+  		<div class="col-md-4">
+  			<img src="imagenes/hosting.png" class="img-portafolio">
+  		</div>
+  		<div class="col-md-4">
+  			<img src="imagenes/north.png" class="img-portafolio">
+  		</div>
+  	</div>
+  </section>
+  <section id="contacto">
+  	<h2>Contacto</h2>
+  	<br>
+  	<form name="formulario" onsubmit="return validar();">
+  		<div class="form-group">
+  			<label for="nombres"><b>Nombres</b></label>
+  			<input type="text" name="nombre" id="nombre" class="form-control">
+  		</div>
+  		<div class="form-group">
+  			<label for="servicio"><b>Motivo</b></label>
+  			<select type="text" id="motivo" name="motivo" class="form-control">
+  				<option value="" disabled="" selected="">Seleccione</option>
+  				<option>Desarrollo Web</option>
+  				<option>Diseño Web</option>
+  				<option>Soporte Web</option>
+  			</select>
+  		</div>
+  		<div class="form-group">
+  			<label for="correo"><b>Correo</b></label>
+  			<input type="email" id="correo" name="correo" class="form-control">
+  		</div>
+  		<div class="form-group">
+  			<label for="mensaje"><b>Mensaje</b></label>
+  			<textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+  		</div>
+  		<button type="submit" id="enviar"  class="btn btn-primary">Enviar</button>
+  	</form>
+  </section>
+ 
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

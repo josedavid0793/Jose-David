@@ -1,0 +1,123 @@
+body{
+font-family: 'Lato', sans-serif;
+margin: 0;
+padding: 0;
+background: #F8F9F9;
+}
+.header{
+height: 80vh;
+margin-top: 0px;
+margin-bottom: 5px;
+background: #6884DA;
+}
+
+header .contenedor {
+display: flex;
+justify-content: space-between;
+width: 100%;
+max-width: 1919px;
+margin: auto;
+margin-top: 9px;
+background:#fff;
+padding: 24px;
+}
+
+header .logo {
+text-transform: uppercase;
+color:#17202A;
+font-size: 25px;
+font-weight: bold;
+margin: 0 10px 0px 27px;
+}
+header nav ul li a{
+text-decoration: none;
+font-family: 'Oxygen';
+font-size: 20px;
+color: #17202A;
+}
+header ul{
+display: flex;
+}
+header ul li{
+list-style: none;
+margin-right: 15px;
+}
+nav ul li {
+list-style: none;
+display: inline-block;
+margin: 0px 24px 0px 31px;
+}
+
+#contenedor-titulo-flex{
+display: flex;
+justify-content: center;
+margin: 22vh 0;
+width: 100%;
+}
+
+#contenedor-titulo-flex .contenedor-titulo h1{
+font-family: 'Ubuntu';
+text-transform: uppercase;
+color:#17202A;
+font-size: 40px;
+font-weight: bold;
+}
+#contenedor-titulo-flex .contenedor-titulo h3{
+font-family: 'Ubuntu';
+text-transform: uppercase;
+color:#17202A;
+font-size: 25px;
+font-weight: bold;
+}
+/**/
+#acercaMi{
+margin-top: 20px;
+background:#FDFEFE;
+}
+#acercaMi h2, #servicios h2, #portafolio h2, #contacto h2{
+text-align: center;
+text-transform: uppercase;
+color:#17202A;
+font-size: 30px;
+font-weight: bold;
+}
+#acercaMi h3{
+text-transform: uppercase;
+color:#17202A;
+font-size: 15px;
+font-weight: bold;
+}
+
+#servicios{
+margin-top: 20px;
+background:#FDFEFE;
+}
+
+.img-servicio{
+width:300px;
+height:300px;
+border-radius:150px;
+border:3px solid #666;
+}
+#servicios h3{
+text-align: center;
+text-transform: uppercase;
+color:#17202A;
+font-size: 15px;
+font-weight: bold;
+margin-right: 18%;
+margin-top: 12px;
+}
+#portafolio{
+margin-top: 20px;
+background:#FDFEFE;
+}
+.img-portafolio{
+width:300px;
+height:300px;	
+border:3px solid #666;
+}
+#contacto{
+margin-top: 20px;
+background:#FDFEFE;
+}
