@@ -25,14 +25,14 @@ padding: 24px;
 header .logo {
 text-transform: uppercase;
 color:#17202A;
-font-size: 25px;
+font-size: 1.500em;
 font-weight: bold;
 margin: 0 10px 0px 27px;
 }
 header nav ul li a{
 text-decoration: none;
 font-family: 'Oxygen';
-font-size: 20px;
+font-size: 1.250em;
 color: #17202A;
 }
 header ul{
@@ -59,14 +59,14 @@ width: 100%;
 font-family: 'Ubuntu';
 text-transform: uppercase;
 color:#17202A;
-font-size: 40px;
+font-size: 2.000em;
 font-weight: bold;
 }
 #contenedor-titulo-flex .contenedor-titulo h3{
 font-family: 'Ubuntu';
 text-transform: uppercase;
 color:#17202A;
-font-size: 25px;
+font-size: 1.500em;
 font-weight: bold;
 }
 /**/
@@ -78,13 +78,13 @@ background:#FDFEFE;
 text-align: center;
 text-transform: uppercase;
 color:#17202A;
-font-size: 30px;
+font-size: 1.800em;
 font-weight: bold;
 }
 #acercaMi h3{
 text-transform: uppercase;
 color:#17202A;
-font-size: 15px;
+font-size: 0.938em;
 font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ border:3px solid #666;
 text-align: center;
 text-transform: uppercase;
 color:#17202A;
-font-size: 15px;
+font-size: 0.938em;
 font-weight: bold;
 margin-right: 18%;
 margin-top: 12px;
